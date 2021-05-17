@@ -1,0 +1,38 @@
+.font-20 {
+  font-size: 20px;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+
+.bg-gradient {
+  background: linear-gradient(45deg, #fd5068, #fc7058);
+}
+
+.wrapper {
+  min-height: 100vh;
+}
+
+.todo-title {
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+.plus-btn {
+    position: fixed;
+    bottom: 64px;
+    right: 64px;
+    border-radius: 48px;
+}
+
+.plus-icon {
+    padding: 24px;
+    display: inline-block;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
