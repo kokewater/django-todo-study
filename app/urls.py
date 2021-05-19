@@ -7,6 +7,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # todoのurls.pyを読み込み
     path('', include('todo.urls')),
-    # # accountのurls.pyを読み込み
-    # path('', include('account.urls')),
+    # accountのurls.pyを読み込み
+    path('', include('account.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS)
